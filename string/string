@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class UsernameLength {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String username = sc.nextLine();
+        int count = 0;
+        char[] ch = username.toCharArray();
+        for (int i = 0; i < ch.length; i++) {
+            count++;
+        }
+        System.out.println(count);
+    }
+}
